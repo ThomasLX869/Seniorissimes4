@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.643" height="83" viewBox="0 0 87.643 83">
+  <defs>
+    <filter id="university-solid" x="0" y="0" width="87.643" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#university-solid)">
+    <path id="university-solid-2" data-name="university-solid" d="M85.643,45.928V48.25a1.161,1.161,0,0,1-1.161,1.161H81v1.741a1.741,1.741,0,0,1-1.741,1.741H22.384a1.741,1.741,0,0,1-1.741-1.741V49.41H17.161A1.161,1.161,0,0,1,16,48.25V45.928a1.161,1.161,0,0,1,.717-1.072L50.378,32.088a1.16,1.16,0,0,1,.888,0L84.926,44.856A1.161,1.161,0,0,1,85.643,45.928ZM82.161,90.035H19.482A3.482,3.482,0,0,0,16,93.518v2.321A1.161,1.161,0,0,0,17.161,97H84.482a1.161,1.161,0,0,0,1.161-1.161V93.518A3.482,3.482,0,0,0,82.161,90.035ZM27.607,55.214V83.071H22.384a1.741,1.741,0,0,0-1.741,1.741v2.9H81v-2.9a1.741,1.741,0,0,0-1.741-1.741H74.036V55.214H64.75V83.071H55.464V55.214H46.179V83.071H36.893V55.214Z" transform="translate(-7 -26)" fill="#7daee8"/>
+  </g>
+</svg>

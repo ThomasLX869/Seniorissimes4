@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.886" height="83" viewBox="0 0 86.886 83">
+  <defs>
+    <filter id="hammer-solid" x="0" y="0" width="86.886" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#hammer-solid)">
+    <path id="hammer-solid-2" data-name="hammer-solid" d="M68.328,24.621l-2.706-2.873a1.836,1.836,0,0,0-2.706,0l-1.353,1.436-3.456-3.669a8.438,8.438,0,0,0-1.955-7.822L50.74,5.949a18.363,18.363,0,0,0-27.062,0L34.5,11.694v2.38a8.381,8.381,0,0,0,2.242,5.745l5.877,6.238a7.321,7.321,0,0,0,7.368,2.076L53.446,31.8l-1.353,1.436a2.121,2.121,0,0,0,0,2.873L54.8,38.983a1.836,1.836,0,0,0,2.706,0l10.824-11.49a2.122,2.122,0,0,0,0-2.872Zm-34.29-1.93a12.2,12.2,0,0,1-1.178-1.517L2.352,51.411A8.192,8.192,0,0,0,2.169,62.7,7.1,7.1,0,0,0,12.8,62.506L41.283,30.124a11.806,11.806,0,0,1-1.368-1.195l-5.877-6.238Z" transform="translate(9 6)" fill="#7daee8"/>
+  </g>
+</svg>
