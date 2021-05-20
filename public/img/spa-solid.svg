@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101.571" height="83" viewBox="0 0 101.571 83">
+  <defs>
+    <filter id="spa-solid" x="0" y="0" width="101.571" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#spa-solid)">
+    <path id="spa-solid-2" data-name="spa-solid" d="M82.446,55.21c-4.213.019-19.588.894-31.026,12.042a37.283,37.283,0,0,0-9.635,13.763A37.282,37.282,0,0,0,32.15,67.252C20.712,56.1,5.337,55.229,1.124,55.21A1.1,1.1,0,0,0,0,56.344C.033,60.4,1.036,74.646,12.879,85.26c12.19,11.871,24.263,11.735,28.906,11.735S58.5,97.133,70.691,85.26C82.536,74.644,83.537,60.4,83.57,56.344a1.1,1.1,0,0,0-1.124-1.135ZM41.782,71.256a39.918,39.918,0,0,1,6.4-7.33,43.422,43.422,0,0,1,8.743-6.555c-2.385-10.229-7.5-19.3-14.034-24.987a1.743,1.743,0,0,0-2.2,0C34.163,38.063,29.045,47.13,26.655,57.35a42.655,42.655,0,0,1,8.592,6.44A41.026,41.026,0,0,1,41.782,71.256Z" transform="translate(9 -25.99)" fill="#7daee8"/>
+  </g>
+</svg>

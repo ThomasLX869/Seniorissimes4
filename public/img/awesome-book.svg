@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.875" height="83" viewBox="0 0 74.875 83">
+  <defs>
+    <filter id="Icon_awesome-book" x="0" y="0" width="74.875" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-book)">
+    <path id="Icon_awesome-book-2" data-name="Icon awesome-book" d="M56.875,45.7V3.047A3.04,3.04,0,0,0,53.828,0H12.188A12.191,12.191,0,0,0,0,12.188V52.813A12.191,12.191,0,0,0,12.188,65H53.828a3.04,3.04,0,0,0,3.047-3.047V59.922a3.071,3.071,0,0,0-1.13-2.374,28.311,28.311,0,0,1,0-9.483A3.025,3.025,0,0,0,56.875,45.7ZM16.25,17.012a.764.764,0,0,1,.762-.762H43.926a.764.764,0,0,1,.762.762v2.539a.764.764,0,0,1-.762.762H17.012a.764.764,0,0,1-.762-.762Zm0,8.125a.764.764,0,0,1,.762-.762H43.926a.764.764,0,0,1,.762.762v2.539a.764.764,0,0,1-.762.762H17.012a.764.764,0,0,1-.762-.762ZM48.42,56.875H12.188a4.063,4.063,0,0,1,0-8.125H48.42A45.7,45.7,0,0,0,48.42,56.875Z" transform="translate(9 6)" fill="#7daee8"/>
+  </g>
+</svg>

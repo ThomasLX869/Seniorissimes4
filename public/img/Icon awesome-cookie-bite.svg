@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82.999" height="83" viewBox="0 0 82.999 83">
+  <defs>
+    <filter id="Icon_awesome-cookie-bite" x="0" y="0" width="82.999" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-cookie-bite)">
+    <path id="Icon_awesome-cookie-bite-2" data-name="Icon awesome-cookie-bite" d="M64.811,32.476A16.24,16.24,0,0,1,48.756,16.244,16.24,16.24,0,0,1,32.524.191,16.753,16.753,0,0,0,22.4,1.819L13.627,6.29a16.786,16.786,0,0,0-7.336,7.339L1.835,22.374A16.839,16.839,0,0,0,.207,32.65l1.534,9.683A16.824,16.824,0,0,0,6.458,51.6l6.953,6.952a16.762,16.762,0,0,0,9.231,4.7l9.738,1.542A16.747,16.747,0,0,0,42.6,63.174L51.38,58.7a16.792,16.792,0,0,0,7.336-7.339l4.456-8.744A16.832,16.832,0,0,0,64.811,32.476ZM22.343,46.718a4.062,4.062,0,1,1,4.062-4.062A4.063,4.063,0,0,1,22.343,46.718Zm4.062-20.312a4.062,4.062,0,1,1,4.062-4.062A4.063,4.063,0,0,1,26.406,26.405Zm20.312,16.25a4.062,4.062,0,1,1,4.062-4.062A4.063,4.063,0,0,1,46.718,42.655Z" transform="translate(9 6)" fill="#7daee8"/>
+  </g>
+</svg>
