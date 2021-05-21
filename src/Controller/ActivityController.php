@@ -108,4 +108,21 @@ class ActivityController extends AbstractController
         ]);
 
     }
+
+     /**
+     * @Route("/activity/{id}", name="activity_self")
+     */
+    public function self($id): Response
+    {
+        $em = $this->getDoctrine()->getManager();
+        $activity = $em->getRepository(Activity::class)->findOneBy(
+            [ 'id' => $id]
+        );
+        dump($activity);
+        return $this->render('activity/self.html.twig', [
+            'activity' => $activity
+            ]);
+    }
+
+    
 }
