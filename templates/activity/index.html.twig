@@ -34,16 +34,17 @@
 
 
 		<!--  Partie Result Card-Activité  -->
-		<div class="row">
+		<div class="row d-flex justify-content-between">
+			{% for activity in activities %}
 			<!--  Sigle-Card D'activité  -->
 			<div class="col-6 card-acti">
 				<div class="row">
 					<div class="col-2 img-card-acti rounded-circle">
-						<img src="img/awesome-cookie-bite.svg">
+						<img src="img/{{ activity.image }}">
 					</div>
 
 					<div class="col-10 content-card-acti">
-						<h4>Cuisine</h4>
+						<h4>{{ activity.label }}</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis aliquam velit. Praesent ornare magna in faucibus suscipit.</p>
 						<div>
 							<a class="btn-card-acti rounded-circle">
@@ -53,6 +54,7 @@
 					</div>
 				</div>
 			</div>
+			{% endfor %}
 		</div>
 	</div>
 	{% endblock %}

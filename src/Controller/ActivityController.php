@@ -21,6 +21,7 @@ class ActivityController extends AbstractController
      */
     public function index(Request $request, SerializerInterface $serializer, SessionInterface $session): Response
     {
+        $activitiesToPurpose = [];
         $em = $this->getDoctrine()->getManager();
         $defaultData = ['message' => ''];
         $form = $this->createFormBuilder($defaultData)
@@ -76,7 +77,6 @@ class ActivityController extends AbstractController
                         $isWeatherClear = false;
                         break;
                 }
-                $activitiesToPurpose = [];
                 foreach ($activities as $activity) {
                     if(!$activity->getIsOutdoor()) {
                         $activitiesToPurpose[] = $activity;
@@ -103,7 +103,8 @@ class ActivityController extends AbstractController
 
 
         return $this->render('activity/index.html.twig', [
-            'form' => $form->createView()
+            'form' => $form->createView(),
+            'activities' => $activitiesToPurpose
         ]);
 
     }
