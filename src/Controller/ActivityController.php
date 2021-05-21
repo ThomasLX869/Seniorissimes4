@@ -25,7 +25,9 @@ class ActivityController extends AbstractController
         $defaultData = ['message' => ''];
         $form = $this->createFormBuilder($defaultData)
             ->add('search', SearchType::class)
-            ->add('submit', SubmitType::class)
+            ->add('submit', SubmitType::class, [
+                'label' => 'Chercher'
+            ])
             ->getForm();
 
         $form->handleRequest($request);
