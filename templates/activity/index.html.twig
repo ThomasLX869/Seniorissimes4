@@ -1,23 +1,60 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+	{{ parent() }}
+	<link href="{{ asset('css/activity.css') }}" type="text/css" rel="stylesheet"/>
+{% endblock %}
+
 {% block title %}Liste des activités !
 {% endblock %}
 
 {% block body %}
-	<div class="row">
-		{% for message in app.flashes('notice') %}
-			<div class="error">
-				{{ message }}
-			</div>
-		{% endfor %}
 
-		{{ form(form) }}
-			<div class="col-6 text-center my-3">
-				<h3>Météo</h3>
-			</div>
+	<div class="container">
+		<div class="row">
+			<!-- Partie Texte/Présentation -->
+			<div class="col-8">
+				<h1>NOS ACTIVITÉS</h1>
+				<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis aliquam velit. Praesent ornare magna in faucibus suscipit. Morbi vel lorem id ipsum ultrices tempor. Nunc id euismod dui. Vivamus tincidunt, est a interdum blandit, erat turpis porta erat, vel ornare felis sapien a diam. </p>
+				<div class="row">
+					{% for message in app.flashes('notice') %}
+						<div class="error">
+							{{ message }}
+						</div>
+					{% endfor %}
 
-			<div class="col-6 text-center my-3">
-				<h3>Les activités dans votre ville</h3>
+					{{ form(form) }}
+				</div>
+			</div>
+			<!-- Partie Illustration -->
+			<div class="col-4">
+				<img src="img/kingdom-1438.png">
 			</div>
 		</div>
+
+
+		<!--  Partie Result Card-Activité  -->
+		<div class="row d-flex justify-content-between">
+			{% for activity in activities %}
+			<!--  Sigle-Card D'activité  -->
+			<div class="col-6 card-acti">
+				<div class="row">
+					<div class="col-2 img-card-acti rounded-circle">
+						<img src="img/{{ activity.image }}">
+					</div>
+
+					<div class="col-10 content-card-acti">
+						<h4>{{ activity.label }}</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis aliquam velit. Praesent ornare magna in faucibus suscipit.</p>
+						<div>
+							<a class="btn-card-acti rounded-circle">
+								<img src="img/Icon-awesome-plus.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
 	{% endblock %}
