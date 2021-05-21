@@ -102,3 +102,15 @@
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
+.imgMail {
+  position: absolute;
+  bottom: 48%;
+  left: 53%;
+}
+.imgMail img {
+  width: 25%;
+}
+.ctnContact {
+  padding-top: 10%;
+  margin-bottom: 50px;
+}
