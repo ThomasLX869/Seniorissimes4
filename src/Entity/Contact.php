@@ -1,12 +1,13 @@
 <?php
 
 namespace App\Entity;
-
+use Symfony\Component\Validator\Constraints as Assert;
 use App\Repository\ContactRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass=ContactRepository::class)
+ * @ORM\HasLifecycleCallbacks
  */
 class Contact
 {
@@ -19,21 +20,29 @@ class Contact
 
     /**
      * @ORM\Column(type="string", length=255)
-     */
+     * @Assert\NotBlank
+     *
+    */
     private $firstname;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
      */
     private $name;
 
     /**
      * @ORM\Column(type="text")
+     * @Assert\NotBlank
      */
     private $message;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
+     * @Assert\Email(
+     *     message = "The email '{{ value }}' is not a valid email."
+     * )
      */
     private $email;
 
