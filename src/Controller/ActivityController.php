@@ -16,7 +16,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 class ActivityController extends AbstractController
 {
     /**
-     * @Route("/", name="activity")
+     * @Route("/activite", name="activity")
      */
     public function index(Request $request, SerializerInterface $serializer): Response
     {
