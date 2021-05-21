@@ -1,0 +1,747 @@
+Script started on Thu May 20 21:35:24 2021
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hgit clone https://github.com/ThomasLX869/seniorissimes4.git[59Dcd /Applications/MAMP/htdocs                               [30D[29Dgit clone https://github.com/ThomasLX869/seniorissimes4.git[59D                                                           [59Dgit clone https://github.com/ThomasLX869/seniorissimes4.git[59Dcd /Applications/MAMP/htdocs                               [30D[29Dsymfony serve               [15D[13Dcd /Applications/MAMP/htdocs                          c  ccomposer instal[?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+Nothing to install, update or remove
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [37;41m[KO][39;49m
+ [37;41m[KO][39;49m
+[37;41mScript cache:clear returned with error code 1[39;49m
+!!  
+!!  [33mIn ArrayNode.php line 327:[39m
+!!  [37;41m                                                                               [39;49m
+!!  [37;41m  Unrecognized option "dbal" under "doctrine.dbal.connections.default". Avail  [39;49m
+!!  [37;41m  able options are "MultipleActiveResultSets", "application_name", "auto_comm  [39;49m
+!!  [37;41m  it", "charset", "connectstring", "dbname", "default_dbname", "default_table  [39;49m
+!!  [37;41m  _options", "driver", "driver_class", "host", "instancename", "keep_replica"  [39;49m
+!!  [37;41m  , "keep_slave", "logging", "mapping_types", "memory", "options", "override_  [39;49m
+!!  [37;41m  url", "password", "path", "persistent", "platform_service", "pooled", "port  [39;49m
+!!  [37;41m  ", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_er  [39;49m
+!!  [37;41m  rors", "protocol", "replicas", "schema_filter", "server", "server_version",  [39;49m
+!!  [37;41m   "service", "servicename", "sessionMode", "shard_choser", "shard_choser_ser  [39;49m
+!!  [37;41m  vice", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "ssl  [39;49m
+!!  [37;41m  key", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "us  [39;49m
+!!  [37;41m  er", "wrapper_class".                                                        [39;49m
+!!  [37;41m                                                                               [39;49m
+!!  
+!!  
+[37;41mScript @auto-scripts was called via post-install-cmd[39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hccomposer recipes[?2004l
+
+[37;44m                      [39;49m
+[37;44m Available recipes.   [39;49m
+[37;44m                      [39;49m
+
+ * doctrine/annotations 
+ * doctrine/doctrine-bundle 
+ * doctrine/doctrine-migrations-bundle 
+ * sensio/framework-extra-bundle 
+ * symfony/console 
+ * symfony/debug-bundle 
+ * symfony/flex 
+ * symfony/framework-bundle 
+ * symfony/mailer 
+ * symfony/maker-bundle 
+ * symfony/monolog-bundle 
+ * symfony/phpunit-bridge 
+ * symfony/routing 
+ * symfony/security-bundle 
+ * symfony/translation 
+ * symfony/twig-bundle 
+ * symfony/validator 
+ * symfony/web-profiler-bundle 
+ * twig/extra-bundle 
+
+Run:
+ * [32mcomposer recipes vendor/package[39m to see details about a recipe.
+ * [32mcomposer recipes:install vendor/package --force -v[39m to update that recipe.
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hcomposer recipesinstal [?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+Nothing to install, update or remove
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [37;41m[KO][39;49m
+ [37;41m[KO][39;49m
+[37;41mScript cache:clear returned with error code 1[39;49m
+!!  
+!!  [33mIn ArrayNode.php line 327:[39m
+!!  [37;41m                                                                               [39;49m
+!!  [37;41m  Unrecognized option "dbal" under "doctrine.dbal.connections.default". Avail  [39;49m
+!!  [37;41m  able options are "MultipleActiveResultSets", "application_name", "auto_comm  [39;49m
+!!  [37;41m  it", "charset", "connectstring", "dbname", "default_dbname", "default_table  [39;49m
+!!  [37;41m  _options", "driver", "driver_class", "host", "instancename", "keep_replica"  [39;49m
+!!  [37;41m  , "keep_slave", "logging", "mapping_types", "memory", "options", "override_  [39;49m
+!!  [37;41m  url", "password", "path", "persistent", "platform_service", "pooled", "port  [39;49m
+!!  [37;41m  ", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_er  [39;49m
+!!  [37;41m  rors", "protocol", "replicas", "schema_filter", "server", "server_version",  [39;49m
+!!  [37;41m   "service", "servicename", "sessionMode", "shard_choser", "shard_choser_ser  [39;49m
+!!  [37;41m  vice", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "ssl  [39;49m
+!!  [37;41m  key", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "us  [39;49m
+!!  [37;41m  er", "wrapper_class".                                                        [39;49m
+!!  [37;41m                                                                               [39;49m
+!!  
+!!  
+[37;41mScript @auto-scripts was called via post-install-cmd[39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hcomposer instal[?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+Nothing to install, update or remove
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [37;41m[KO][39;49m
+ [37;41m[KO][39;49m
+[37;41mScript cache:clear returned with error code 1[39;49m
+!!  
+!!  [33mIn ArrayNode.php line 327:[39m
+!!  [37;41m                                                                               [39;49m
+!!  [37;41m  Unrecognized option "dbal" under "doctrine.dbal.connections.default". Avail  [39;49m
+!!  [37;41m  able options are "MultipleActiveResultSets", "application_name", "auto_comm  [39;49m
+!!  [37;41m  it", "charset", "connectstring", "dbname", "default_dbname", "default_table  [39;49m
+!!  [37;41m  _options", "driver", "driver_class", "host", "instancename", "keep_replica"  [39;49m
+!!  [37;41m  , "keep_slave", "logging", "mapping_types", "memory", "options", "override_  [39;49m
+!!  [37;41m  url", "password", "path", "persistent", "platform_service", "pooled", "port  [39;49m
+!!  [37;41m  ", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_er  [39;49m
+!!  [37;41m  rors", "protocol", "replicas", "schema_filter", "server", "server_version",  [39;49m
+!!  [37;41m   "service", "servicename", "sessionMode", "shard_choser", "shard_choser_ser  [39;49m
+!!  [37;41m  vice", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "ssl  [39;49m
+!!  [37;41m  key", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "us  [39;49m
+!!  [37;41m  er", "wrapper_class".                                                        [39;49m
+!!  [37;41m                                                                               [39;49m
+!!  
+!!  
+[37;41mScript @auto-scripts was called via post-install-cmd[39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hcomposer instal[?2004l
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mVerifying lock file contents can be installed on current platform.[39m
+Nothing to install, update or remove
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [37;41m[KO][39;49m
+ [37;41m[KO][39;49m
+[37;41mScript cache:clear returned with error code 1[39;49m
+!!  
+!!  [33mIn ArrayNode.php line 327:[39m
+!!  [37;41m                                                                               [39;49m
+!!  [37;41m  Unrecognized option "dbal" under "doctrine.dbal.connections.default". Avail  [39;49m
+!!  [37;41m  able options are "MultipleActiveResultSets", "application_name", "auto_comm  [39;49m
+!!  [37;41m  it", "charset", "connectstring", "dbname", "default_dbname", "default_table  [39;49m
+!!  [37;41m  _options", "driver", "driver_class", "host", "instancename", "keep_replica"  [39;49m
+!!  [37;41m  , "keep_slave", "logging", "mapping_types", "memory", "options", "override_  [39;49m
+!!  [37;41m  url", "password", "path", "persistent", "platform_service", "pooled", "port  [39;49m
+!!  [37;41m  ", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_er  [39;49m
+!!  [37;41m  rors", "protocol", "replicas", "schema_filter", "server", "server_version",  [39;49m
+!!  [37;41m   "service", "servicename", "sessionMode", "shard_choser", "shard_choser_ser  [39;49m
+!!  [37;41m  vice", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "ssl  [39;49m
+!!  [37;41m  key", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "us  [39;49m
+!!  [37;41m  er", "wrapper_class".                                                        [39;49m
+!!  [37;41m                                                                               [39;49m
+!!  
+!!  
+[37;41mScript @auto-scripts was called via post-install-cmd[39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hppost-install-cmd[?2004l
+zsh: command not found: post-install-cmd
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hsser s symfony serve[?2004l
+Tailing [32mWeb Server[39m log file (/Users/anaisbiossat/.symfony/log/bc7198b1efe2c799f3b486f62e2b702c9d33a0bc.log)
+Tailing [32mPHP-FPM[39m log file (/Users/anaisbiossat/.symfony/log/bc7198b1efe2c799f3b486f62e2b702c9d33a0bc/53fb8ec204547646acb3461995e4da5a54cc7575.log)
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] Web server listening                                                                                              [39;49m
+[30;42m      The Web server is using PHP FPM 8.0.6                                                                             [39;49m
+[30;42m      https://127.0.0.1:8000                                                                                            [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[[32mWeb Server [39m] May 20 21:40:44 |DEBUG  | [33mPHP   [39m Reloading PHP versions 
+[[32mWeb Server [39m] May 20 21:40:45 |DEBUG  | [33mPHP   [39m Using PHP version 8.0.6 (from default version in $PATH) 
+[[32mWeb Server [39m] May 20 21:40:45 |INFO   | [33mPHP   [39m listening [36mpath[39m="/usr/local/Cellar/php/8.0.6_1/sbin/php-fpm" [36mphp[39m="8.0.6" [36mport[39m=52489
+[[32mPHP-FPM    [39m] May 20 21:40:45 |[30;43mNOTICE [39;49m| [33mFPM   [39m fpm is running, pid 17062 
+[[32mPHP-FPM    [39m] May 20 21:40:45 |[30;43mNOTICE [39;49m| [33mFPM   [39m ready to handle connections 
+[[32mWeb Server [39m] May 20 21:40:51 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /[39m [36mip[39m="127.0.0.1"
+[[32mPHP-FPM    [39m] [20-May-2021 19:40:51 UTC] 2021-05-20T19:40:51+00:00 [critical] Uncaught Exception: Unrecognized option "dbal" under "doctrine.dbal.connections.default". Available options are "MultipleActiveResultSets", "application_name", "auto_commit", "charset", "connectstring", "dbname", "default_dbname", "default_table_options", "driver", "driver_class", "host", "instancename", "keep_replica", "keep_slave", "logging", "mapping_types", "memory", "options", "override_url", "password", "path", "persistent", "platform_service", "pooled", "port", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_errors", "protocol", "replicas", "schema_filter", "server", "server_version", "service", "servicename", "sessionMode", "shard_choser", "shard_choser_service", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "sslkey", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "user", "wrapper_class".
+php bin/console server:start
+© ^CShut down, bye!
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hccomposer require symfony/apache-pack[?2004l
+Using version [32m^1.0[39m for [32msymfony/apache-pack[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update symfony/apache-pack[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies[39m
+[32mLock file operations: 1 install, 0 updates, 0 removals[39m
+  - Locking [32msymfony/apache-pack[39m ([33mv1.0.1[39m)
+[32mWriting lock file[39m
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mPackage operations: 1 install, 0 updates, 0 removals[39m
+  - Downloading [32msymfony/apache-pack[39m ([33mv1.0.1[39m)
+  - Installing [32msymfony/apache-pack[39m ([33mv1.0.1[39m): Extracting archive
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+[32mSymfony operations: 1 recipe (6193d05a1e42b1a1a6922cc6217f5ded)[39m
+  - [30;43m WARNING [39;49m [32msymfony/apache-pack[39m ([33m>=1.0[39m): From github.com/symfony/recipes-contrib:master
+    The recipe for this package comes from the "contrib" repository, which is open to community contributions.
+    Review the recipe at https://github.com/symfony/recipes-contrib/tree/master/symfony/apache-pack/1.0
+
+    Do you want to execute this recipe?
+    [[33my[39m] Yes
+    [[33mn[39m] No
+    [[33ma[39m] Yes for all packages, only for the current installation session
+    [[33mp[39m] Yes permanently, never ask again for this project
+    (defaults to [33mn[39m): y
+  - Configuring [32msymfony/apache-pack[39m ([33m>=1.0[39m): From github.com/symfony/recipes-contrib:master
+Executing script cache:clear [37;41m[KO][39;49m
+ [37;41m[KO][39;49m
+[37;41mScript cache:clear returned with error code 1[39;49m
+!!  
+!!  [33mIn ArrayNode.php line 327:[39m
+!!  [37;41m                                                                               [39;49m
+!!  [37;41m  Unrecognized option "dbal" under "doctrine.dbal.connections.default". Avail  [39;49m
+!!  [37;41m  able options are "MultipleActiveResultSets", "application_name", "auto_comm  [39;49m
+!!  [37;41m  it", "charset", "connectstring", "dbname", "default_dbname", "default_table  [39;49m
+!!  [37;41m  _options", "driver", "driver_class", "host", "instancename", "keep_replica"  [39;49m
+!!  [37;41m  , "keep_slave", "logging", "mapping_types", "memory", "options", "override_  [39;49m
+!!  [37;41m  url", "password", "path", "persistent", "platform_service", "pooled", "port  [39;49m
+!!  [37;41m  ", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_er  [39;49m
+!!  [37;41m  rors", "protocol", "replicas", "schema_filter", "server", "server_version",  [39;49m
+!!  [37;41m   "service", "servicename", "sessionMode", "shard_choser", "shard_choser_ser  [39;49m
+!!  [37;41m  vice", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "ssl  [39;49m
+!!  [37;41m  key", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "us  [39;49m
+!!  [37;41m  er", "wrapper_class".                                                        [39;49m
+!!  [37;41m                                                                               [39;49m
+!!  
+!!  
+[37;41mScript @auto-scripts was called via post-update-cmd[39;49m
+
+[37;41mInstallation failed, reverting ./composer.json and ./composer.lock to their original content.[39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hcomposer require symfony/apache-pack[?2004l
+Using version [32m^1.0[39m for [32msymfony/apache-pack[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update symfony/apache-pack[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies[39m
+[32mLock file operations: 1 install, 0 updates, 0 removals[39m
+  - Locking [32msymfony/apache-pack[39m ([33mv1.0.1[39m)
+[32mWriting lock file[39m
+[32mInstalling dependencies from lock file (including require-dev)[39m
+Nothing to install, update or remove
+[32mGenerating autoload files[39m
+[32mcomposer/package-versions-deprecated:[39m Generating version class...
+[32mcomposer/package-versions-deprecated:[39m ...done generating version class
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [37;41m[KO][39;49m
+ [37;41m[KO][39;49m
+[37;41mScript cache:clear returned with error code 1[39;49m
+!!  
+!!  [33mIn ArrayNode.php line 327:[39m
+!!  [37;41m                                                                               [39;49m
+!!  [37;41m  Unrecognized option "dbal" under "doctrine.dbal.connections.default". Avail  [39;49m
+!!  [37;41m  able options are "MultipleActiveResultSets", "application_name", "auto_comm  [39;49m
+!!  [37;41m  it", "charset", "connectstring", "dbname", "default_dbname", "default_table  [39;49m
+!!  [37;41m  _options", "driver", "driver_class", "host", "instancename", "keep_replica"  [39;49m
+!!  [37;41m  , "keep_slave", "logging", "mapping_types", "memory", "options", "override_  [39;49m
+!!  [37;41m  url", "password", "path", "persistent", "platform_service", "pooled", "port  [39;49m
+!!  [37;41m  ", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_er  [39;49m
+!!  [37;41m  rors", "protocol", "replicas", "schema_filter", "server", "server_version",  [39;49m
+!!  [37;41m   "service", "servicename", "sessionMode", "shard_choser", "shard_choser_ser  [39;49m
+!!  [37;41m  vice", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "ssl  [39;49m
+!!  [37;41m  key", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "us  [39;49m
+!!  [37;41m  er", "wrapper_class".                                                        [39;49m
+!!  [37;41m                                                                               [39;49m
+!!  
+!!  
+[37;41mScript @auto-scripts was called via post-update-cmd[39;49m
+
+[37;41mInstallation failed, reverting ./composer.json and ./composer.lock to their original content.[39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hcomposer require symfony/apache-pack[36Dsymfony serve                       [23D[?2004l
+Tailing [32mWeb Server[39m log file (/Users/anaisbiossat/.symfony/log/bc7198b1efe2c799f3b486f62e2b702c9d33a0bc.log)
+Tailing [32mPHP-FPM[39m log file (/Users/anaisbiossat/.symfony/log/bc7198b1efe2c799f3b486f62e2b702c9d33a0bc/53fb8ec204547646acb3461995e4da5a54cc7575.log)
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] Web server listening                                                                                              [39;49m
+[30;42m      The Web server is using PHP FPM 8.0.6                                                                             [39;49m
+[30;42m      https://127.0.0.1:8000                                                                                            [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[[32mWeb Server [39m] May 20 21:51:11 |DEBUG  | [33mPHP   [39m Reloading PHP versions 
+[[32mWeb Server [39m] May 20 21:51:12 |DEBUG  | [33mPHP   [39m Using PHP version 8.0.6 (from default version in $PATH) 
+[[32mWeb Server [39m] May 20 21:51:12 |INFO   | [33mPHP   [39m listening [36mpath[39m="/usr/local/Cellar/php/8.0.6_1/sbin/php-fpm" [36mphp[39m="8.0.6" [36mport[39m=52655
+[[32mPHP-FPM    [39m] May 20 21:51:12 |[30;43mNOTICE [39;49m| [33mFPM   [39m fpm is running, pid 17397 
+[[32mPHP-FPM    [39m] May 20 21:51:12 |[30;43mNOTICE [39;49m| [33mFPM   [39m ready to handle connections 
+[[32mWeb Server [39m] May 20 21:51:27 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /[39m [36mip[39m="127.0.0.1"
+[[32mPHP-FPM    [39m] [20-May-2021 19:51:27 UTC] 2021-05-20T19:51:27+00:00 [critical] Uncaught Exception: Unrecognized option "dbal" under "doctrine.dbal.connections.default". Available options are "MultipleActiveResultSets", "application_name", "auto_commit", "charset", "connectstring", "dbname", "default_dbname", "default_table_options", "driver", "driver_class", "host", "instancename", "keep_replica", "keep_slave", "logging", "mapping_types", "memory", "options", "override_url", "password", "path", "persistent", "platform_service", "pooled", "port", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_errors", "protocol", "replicas", "schema_filter", "server", "server_version", "service", "servicename", "sessionMode", "shard_choser", "shard_choser_service", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "sslkey", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "user", "wrapper_class".
+[[32mPHP-FPM    [39m] [20-May-2021 19:51:30 UTC] 2021-05-20T19:51:30+00:00 [critical] Uncaught Exception: Unrecognized option "dbal" under "doctrine.dbal.connections.default". Available options are "MultipleActiveResultSets", "application_name", "auto_commit", "charset", "connectstring", "dbname", "default_dbname", "default_table_options", "driver", "driver_class", "host", "instancename", "keep_replica", "keep_slave", "logging", "mapping_types", "memory", "options", "override_url", "password", "path", "persistent", "platform_service", "pooled", "port", "profiling", "profiling_collect_backtrace", "profiling_collect_schema_errors", "protocol", "replicas", "schema_filter", "server", "server_version", "service", "servicename", "sessionMode", "shard_choser", "shard_choser_service", "shard_manager_class", "shards", "slaves", "sslcert", "sslcrl", "sslkey", "sslmode", "sslrootcert", "unix_socket", "url", "use_savepoints", "user", "wrapper_class".
+[[32mWeb Server [39m] May 20 21:51:30 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /[39m [36mip[39m="127.0.0.1"
+^CShut down, bye!
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                 [0m[27m[24m[Janaisbiossat@macbook-pro-de-anais seniorissimes4 % [K[?2004hsymfony serve[?2004l
+Tailing [32mWeb Server[39m log file (/Users/anaisbiossat/.symfony/log/bc7198b1efe2c799f3b486f62e2b702c9d33a0bc.log)
+Tailing [32mPHP-FPM[39m log file (/Users/anaisbiossat/.symfony/log/bc7198b1efe2c799f3b486f62e2b702c9d33a0bc/53fb8ec204547646acb3461995e4da5a54cc7575.log)
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] Web server listening                                                                                              [39;49m
+[30;42m      The Web server is using PHP FPM 8.0.6                                                                             [39;49m
+[30;42m      https://127.0.0.1:8000                                                                                            [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[[32mWeb Server [39m] May 20 21:55:23 |DEBUG  | [33mPHP   [39m Reloading PHP versions 
+[[32mWeb Server [39m] May 20 21:55:23 |DEBUG  | [33mPHP   [39m Using PHP version 8.0.6 (from default version in $PATH) 
+[[32mWeb Server [39m] May 20 21:55:23 |INFO   | [33mPHP   [39m listening [36mpath[39m="/usr/local/Cellar/php/8.0.6_1/sbin/php-fpm" [36mphp[39m="8.0.6" [36mport[39m=52701
+[[32mPHP-FPM    [39m] May 20 21:55:23 |[30;43mNOTICE [39;49m| [33mFPM   [39m fpm is running, pid 17640 
+[[32mPHP-FPM    [39m] May 20 21:55:23 |[30;43mNOTICE [39;49m| [33mFPM   [39m ready to handle connections 
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /[39m [36mip[39m="127.0.0.1"
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 20 21:55:37 |INFO   | [33mSERVER[39m GET  (200) /img/logo.png[39m 
+[[32mWeb Server [39m] May 20 21:55:38 |INFO   | [33mSERVER[39m GET  (200) /_wdt/8e2a18[39m 
+[[32mWeb Server [39m] May 20 21:55:47 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /activit%C3%A9s[39m 
+[[32mWeb Server [39m] May 20 21:55:48 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /favicon.ico[39m 
+[[32mWeb Server [39m] May 20 21:55:55 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /contact[39m 
+[[32mWeb Server [39m] May 20 21:55:55 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /favicon.ico[39m 
+[[32mWeb Server [39m] May 20 21:57:08 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 20 21:57:09 |INFO   | [33mSERVER[39m GET  (200) /_wdt/7eae36[39m 
+[[32mWeb Server [39m] May 20 21:57:27 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /activit%C3%A9s[39m 
+[[32mWeb Server [39m] May 20 22:02:14 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 20 22:02:14 |INFO   | [33mSERVER[39m GET  (200) /_wdt/c5800e[39m 
+[[32mWeb Server [39m] May 21 09:38:43 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /img//[39m 
+[[32mWeb Server [39m] May 21 09:40:28 |INFO   | [33mSERVER[39m GET  (200) /_wdt/70e816[39m 
+[[32mWeb Server [39m] May 21 09:40:39 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 09:40:39 |INFO   | [33mSERVER[39m GET  (200) /_wdt/1c88eb[39m 
+[[32mWeb Server [39m] May 21 09:40:39 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /favicon.ico[39m 
+[[32mWeb Server [39m] May 21 09:40:41 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /contact[39m 
+[[32mWeb Server [39m] May 21 09:40:52 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 09:40:52 |INFO   | [33mSERVER[39m GET  (200) /_wdt/9d9527[39m 
+[[32mWeb Server [39m] May 21 09:40:55 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 09:40:55 |INFO   | [33mSERVER[39m GET  (200) /_wdt/265042[39m 
+[[32mWeb Server [39m] May 21 09:40:56 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 09:40:56 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /img//[39m 
+[[32mWeb Server [39m] May 21 09:40:56 |INFO   | [33mSERVER[39m GET  (200) /_wdt/f76353[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 09:42:23 |INFO   | [33mSERVER[39m GET  (200) /_wdt/76248a[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 09:45:27 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 09:45:28 |INFO   | [33mSERVER[39m GET  (200) /_wdt/880fad[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /img//[39m 
+[[32mWeb Server [39m] May 21 09:47:10 |INFO   | [33mSERVER[39m GET  (200) /_wdt/8892f7[39m 
+[[32mWeb Server [39m] May 21 09:48:00 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 09:48:00 |INFO   | [33mSERVER[39m GET  (200) /_wdt/a36dee[39m 
+[[32mWeb Server [39m] May 21 10:02:31 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /activity[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:04:34 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:04:35 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:04:35 |INFO   | [33mSERVER[39m GET  (200) /_wdt/e1bed9[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 10:15:46 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 10:15:47 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:15:47 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:15:47 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:15:47 |INFO   | [33mSERVER[39m GET  (200) /_wdt/9f24d0[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:22:09 |INFO   | [33mSERVER[39m GET  (200) /_wdt/8d6527[39m 
+[[32mWeb Server [39m] May 21 10:26:37 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:26:37 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:26:38 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:26:38 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:26:38 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:26:38 |INFO   | [33mSERVER[39m GET  (200) /_wdt/e9b832[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:29:43 |INFO   | [33mSERVER[39m GET  (200) /_wdt/b89057[39m 
+[[32mWeb Server [39m] May 21 10:29:45 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:29:45 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:29:45 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:29:45 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /assets/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:29:45 |INFO   | [33mSERVER[39m GET  (200) /_wdt/f8352b[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 10:46:30 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 10:46:31 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:46:31 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:46:31 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:46:31 |INFO   | [33mSERVER[39m GET  (200) /_wdt/22a230[39m 
+[[32mWeb Server [39m] May 21 10:46:32 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:46:32 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:46:32 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:46:33 |INFO   | [33mSERVER[39m GET  (200) /_wdt/72e6db[39m 
+[[32mWeb Server [39m] May 21 10:46:33 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:48:59 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:48:59 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:49:00 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:49:00 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:49:00 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:49:00 |INFO   | [33mSERVER[39m GET  (200) /_wdt/0b25df[39m 
+[[32mWeb Server [39m] May 21 10:51:33 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:51:33 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:51:33 |INFO   | [33mSERVER[39m GET  (200) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:51:33 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:51:33 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /public/img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:51:33 |INFO   | [33mSERVER[39m GET  (200) /_wdt/935986[39m 
+[[32mWeb Server [39m] May 21 10:52:12 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:52:12 |INFO   | [33mSERVER[39m GET  (200) /img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 10:52:12 |INFO   | [33mSERVER[39m GET  (200) /img/kingdom-1438.png[39m 
+[[32mWeb Server [39m] May 21 10:52:12 |INFO   | [33mSERVER[39m GET  (200) /_wdt/6ea12d[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 10:57:43 |INFO   | [33mSERVER[39m GET  (200) /_wdt/7897e7[39m 
+[[32mWeb Server [39m] May 21 10:58:38 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:58:38 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:58:38 |INFO   | [33mSERVER[39m GET  (200) /_wdt/d3d394[39m 
+[[32mWeb Server [39m] May 21 10:59:42 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 10:59:42 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 10:59:42 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 10:59:43 |INFO   | [33mSERVER[39m GET  (200) /_wdt/955488[39m 
+[[32mWeb Server [39m] May 21 11:02:39 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:02:39 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:02:39 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:02:39 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:39 |INFO   | [33mSERVER[39m GET  (200) /_wdt/999015[39m 
+[[32mWeb Server [39m] May 21 11:02:40 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//material-directions-bike.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//seedling-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//university-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (304) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//awesome-paint-brush.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//hammer-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//walking-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//Icon%20awesome-book.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//Icon%20awesome-puzzle-piece.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//spa-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /img//chess-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:02:41 |INFO   | [33mSERVER[39m GET  (200) /_wdt/d01380[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (200) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 11:08:12 |INFO   | [33mSERVER[39m GET  (200) /_wdt/ffa9db[39m 
+[[32mWeb Server [39m] May 21 11:09:02 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:09:02 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:09:02 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:09:02 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:09:02 |INFO   | [33mSERVER[39m GET  (200) /_wdt/6bb1d4[39m 
+[[32mWeb Server [39m] May 21 11:09:48 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:09:48 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:09:48 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:09:48 |INFO   | [33mSERVER[39m GET  (200) /_wdt/84c964[39m 
+[[32mWeb Server [39m] May 21 11:10:16 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:10:16 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:10:16 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:10:16 |INFO   | [33mSERVER[39m GET  (200) /_wdt/611eaa[39m 
+[[32mWeb Server [39m] May 21 11:10:18 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:10:19 |INFO   | [33mSERVER[39m GET  (200) /_wdt/7efb79[39m 
+[[32mWeb Server [39m] May 21 11:10:33 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:10:33 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:10:33 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:10:33 |INFO   | [33mSERVER[39m GET  (200) /_wdt/2c15ea[39m 
+[[32mWeb Server [39m] May 21 11:10:39 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:10:39 |INFO   | [33mSERVER[39m GET  (200) /_wdt/1267da[39m 
+[[32mWeb Server [39m] May 21 11:10:43 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:10:43 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:10:43 |INFO   | [33mSERVER[39m GET  (200) /_wdt/accae9[39m 
+[[32mWeb Server [39m] May 21 11:10:47 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:10:47 |INFO   | [33mSERVER[39m GET  (200) /_wdt/e85ebf[39m 
+[[32mWeb Server [39m] May 21 11:10:59 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:10:59 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:10:59 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:10:59 |INFO   | [33mSERVER[39m GET  (200) /_wdt/73030f[39m 
+[[32mWeb Server [39m] May 21 11:12:49 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:12:49 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:12:49 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:12:49 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:12:49 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:12:49 |INFO   | [33mSERVER[39m GET  (200) /_wdt/0247d9[39m 
+[[32mWeb Server [39m] May 21 11:14:30 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:14:30 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:14:30 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:14:30 |INFO   | [33mSERVER[39m GET  (200) /_wdt/e09ac3[39m 
+[[32mWeb Server [39m] May 21 11:16:21 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:16:21 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:16:21 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:16:21 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:16:21 |[30;43mWARN   [39;49m| [33mSERVER[39m GET  (404) /favicon.ico[39m 
+[[32mWeb Server [39m] May 21 11:16:21 |INFO   | [33mSERVER[39m GET  (200) /_wdt/95d8da[39m 
+[[32mWeb Server [39m] May 21 11:16:48 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:16:48 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:16:48 |INFO   | [33mSERVER[39m GET  (200) /_wdt/99775c[39m 
+[[32mWeb Server [39m] May 21 11:17:29 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:17:29 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:17:29 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:17:30 |INFO   | [33mSERVER[39m GET  (200) /_wdt/0d9b74[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 11:19:38 |INFO   | [33mSERVER[39m GET  (200) /_wdt/15e7ef[39m 
+[[32mWeb Server [39m] May 21 11:20:35 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:20:35 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:20:35 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:20:35 |INFO   | [33mSERVER[39m GET  (200) /_wdt/91ed34[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//seedling-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//material-directions-bike.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//walking-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-puzzle-piece.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//hammer-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-book.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-paint-brush.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//spa-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//chess-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (304) /img//university-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:20:37 |INFO   | [33mSERVER[39m GET  (200) /_wdt/c85e4e[39m 
+[[32mWeb Server [39m] May 21 11:23:10 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:23:10 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:23:11 |INFO   | [33mSERVER[39m GET  (200) /_wdt/9de05e[39m 
+[[32mWeb Server [39m] May 21 11:23:14 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:23:14 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:23:14 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:23:14 |INFO   | [33mSERVER[39m GET  (200) /_wdt/1d6616[39m 
+[[32mWeb Server [39m] May 21 11:23:18 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:23:18 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:23:18 |INFO   | [33mSERVER[39m GET  (200) /_wdt/380f30[39m 
+[[32mWeb Server [39m] May 21 11:24:32 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:24:32 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:24:32 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:24:32 |INFO   | [33mSERVER[39m GET  (200) /_wdt/a5faa1[39m 
+[[32mWeb Server [39m] May 21 11:26:27 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:26:27 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:26:27 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:26:28 |INFO   | [33mSERVER[39m GET  (200) /_wdt/7e0cb1[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 11:32:41 |INFO   | [33mSERVER[39m GET  (200) /_wdt/0312ac[39m 
+[[32mWeb Server [39m] May 21 11:40:57 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /activity[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (200) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (200) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/Icon-awesome-plus.png[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 11:45:09 |INFO   | [33mSERVER[39m GET  (200) /_wdt/9fa88d[39m 
+[[32mWeb Server [39m] May 21 11:45:17 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:45:17 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:45:17 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:45:17 |INFO   | [33mSERVER[39m GET  (200) /_wdt/47bf9d[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//walking-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//seedling-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//material-directions-bike.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-puzzle-piece.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-paint-brush.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-book.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//hammer-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//university-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//spa-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//chess-solid.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:18 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 11:45:19 |INFO   | [33mSERVER[39m GET  (200) /_wdt/f10820[39m 
+[[32mWeb Server [39m] May 21 11:45:20 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:45:20 |INFO   | [33mSERVER[39m GET  (200) /_wdt/2a1db3[39m 
+[[32mWeb Server [39m] May 21 11:45:23 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:45:23 |INFO   | [33mSERVER[39m GET  (200) /_wdt/291894[39m 
+[[32mWeb Server [39m] May 21 11:46:53 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:46:53 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:46:53 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:46:53 |INFO   | [33mSERVER[39m GET  (200) /_wdt/e845ac[39m 
+[[32mWeb Server [39m] May 21 11:47:51 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:47:51 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:47:51 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:47:51 |INFO   | [33mSERVER[39m GET  (200) /_wdt/21ac98[39m 
+[[32mWeb Server [39m] May 21 11:47:53 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:47:53 |INFO   | [33mSERVER[39m GET  (200) /_wdt/80cf60[39m 
+[[32mWeb Server [39m] May 21 11:48:54 |INFO   | [33mSERVER[39m GET  (200) /activity[39m 
+[[32mWeb Server [39m] May 21 11:48:54 |INFO   | [33mSERVER[39m GET  (304) /css/activity.css[39m 
+[[32mWeb Server [39m] May 21 11:48:54 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 11:48:54 |INFO   | [33mSERVER[39m GET  (200) /_wdt/c4d531[39m 
+[[32mWeb Server [39m] May 21 11:48:56 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 11:48:56 |INFO   | [33mSERVER[39m GET  (200) /_wdt/c3b81b[39m 
+[[32mWeb Server [39m] May 21 11:50:03 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /contact[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//material-directions-bike.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//seedling-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-book.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//walking-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-puzzle-piece.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-paint-brush.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//hammer-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//university-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//spa-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img//chess-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 12:06:21 |INFO   | [33mSERVER[39m GET  (200) /_wdt/856e67[39m 
+[[32mWeb Server [39m] May 21 12:06:23 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:06:23 |INFO   | [33mSERVER[39m GET  (200) /_wdt/778aa4[39m 
+[[32mWeb Server [39m] May 21 12:06:23 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:06:24 |INFO   | [33mSERVER[39m GET  (200) /_wdt/256058[39m 
+[[32mWeb Server [39m] May 21 12:11:10 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:11:10 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 12:11:10 |INFO   | [33mSERVER[39m GET  (200) /_wdt/5bd9c1[39m 
+[[32mWeb Server [39m] May 21 12:11:12 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:11:12 |INFO   | [33mSERVER[39m GET  (200) /_wdt/dc59c1[39m 
+[[32mWeb Server [39m] May 21 12:11:14 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:11:14 |INFO   | [33mSERVER[39m GET  (200) /_wdt/8668da[39m 
+[[32mWeb Server [39m] May 21 12:24:27 |[37;41mERROR  [39;49m| [33mSERVER[39m GET  (500) /[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (200) /[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/logo.png[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /css/headerfooter.css[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-394.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/kingdom-405.png[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//material-directions-bike.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /css/card.css[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//walking-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//seedling-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-book.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//Icon%20awesome-puzzle-piece.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//university-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//hammer-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-paint-brush.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//spa-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//awesome-cookie-bite.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img//chess-solid.svg[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-facebook-square.png[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-instagram.png[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/awesome-linkedin.png[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (304) /img/Fav-icon.png[39m 
+[[32mWeb Server [39m] May 21 12:28:03 |INFO   | [33mSERVER[39m GET  (200) /_wdt/9b1f5a[39m 
