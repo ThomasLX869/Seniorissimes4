@@ -17,12 +17,6 @@
 				<h1>NOS ACTIVITÉS</h1>
 				<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis aliquam velit. Praesent ornare magna in faucibus suscipit. Morbi vel lorem id ipsum ultrices tempor. Nunc id euismod dui. Vivamus tincidunt, est a interdum blandit, erat turpis porta erat, vel ornare felis sapien a diam. </p>
 				<div class="row">
-					{% for message in app.flashes('notice') %}
-						<div class="error">
-							{{ message }}
-						</div>
-					{% endfor %}
-
 					{{ form(form) }}
 				</div>
 			</div>
@@ -35,26 +29,44 @@
 
 		<!--  Partie Result Card-Activité  -->
 		<div class="row d-flex justify-content-between">
-			{% for activity in activities %}
-			<!--  Sigle-Card D'activité  -->
-			<div class="col-6 card-acti">
-				<div class="row">
-					<div class="col-2 img-card-acti rounded-circle">
-						<img src="img/{{ activity.image }}">
-					</div>
-
-					<div class="col-10 content-card-acti">
-						<h4>{{ activity.label }}</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis aliquam velit. Praesent ornare magna in faucibus suscipit.</p>
-						<div>
-							<a class="btn-card-acti rounded-circle">
-								<img src="img/Icon-awesome-plus.png">
-							</a>
+			{% if isWrong == true%}
+				<div class="col-9 card-acti-empty text-center mx-auto">
+					<div class="row">
+						<div class="col-10 content-card-acti mx-auto error-activity">
+							<p>Cette ville n'est pas référencée !</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			{% endfor %}
+			{% elseif activities is empty %}
+				<div class="col-9 card-acti-empty text-center mx-auto">
+					<div class="row">
+						<div class="col-10 content-card-acti mx-auto">
+							<p>Effectuez une nouvelle recherche sur une ville connue !</p>
+						</div>
+					</div>
+				</div>
+			{% else %}
+				{% for activity in activities %}
+					<!--  Sigle-Card D'activité  -->
+					<div class="col-6 card-acti">
+						<div class="row">
+							<div class="col-2 img-card-acti rounded-circle">
+								<img src="img/{{ activity.image }}">
+							</div>
+
+							<div class="col-10 content-card-acti">
+								<h4>{{ activity.label }}</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis aliquam velit. Praesent ornare magna in faucibus suscipit.</p>
+								<div>
+									<a class="btn-card-acti rounded-circle">
+										<img src="img/Icon-awesome-plus.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				{% endfor %}
+			{% endif %}
 		</div>
 	</div>
 	{% endblock %}

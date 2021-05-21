@@ -21,6 +21,7 @@ class ActivityController extends AbstractController
      */
     public function index(Request $request, SerializerInterface $serializer, SessionInterface $session): Response
     {
+        $isWrong = false;
         $activitiesToPurpose = [];
         $em = $this->getDoctrine()->getManager();
         $defaultData = ['message' => ''];
@@ -86,26 +87,21 @@ class ActivityController extends AbstractController
                 }
             }
             catch(\Exception $e){
-                $this->addFlash(
-                    'error',
-                    "Cette ville n'est pas référencée ! "
-                );
-                dump("pas de ville");
+                $isWrong = true;
             }
-
 
 
             return $this->render('activity/index.html.twig', [
                 'form' => $form->createView(),
-                'activities' => $activitiesToPurpose
+                'activities' => $activitiesToPurpose,
+                'isWrong' => $isWrong
             ]);
         }
 
-
         return $this->render('activity/index.html.twig', [
             'form' => $form->createView(),
-            'activities' => $activitiesToPurpose
+            'activities' => $activitiesToPurpose,
+            'isWrong' => $isWrong
         ]);
-
     }
 }
