@@ -10,6 +10,7 @@ use Symfony\Component\Form\Extension\Core\Type\SearchType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Serializer\SerializerInterface;
 
@@ -18,7 +19,7 @@ class ActivityController extends AbstractController
     /**
      * @Route("/activity", name="activity")
      */
-    public function index(Request $request, SerializerInterface $serializer): Response
+    public function index(Request $request, SerializerInterface $serializer, SessionInterface $session): Response
     {
         $em = $this->getDoctrine()->getManager();
         $defaultData = ['message' => ''];
@@ -29,19 +30,20 @@ class ActivityController extends AbstractController
 
         $form->handleRequest($request);
 
-        if ($form->isSubmitted() && $form->isValid()) {
+        if ($form->isSubmitted() && $form->isValid() || (!empty($session->get('searchField')))) {
             $data = $form->getData();
-            $city = $data["search"];
-
+            if(empty($session->get('searchField'))) {
+                $city = $data["search"];
+            }else {
+                $city = $session->get('searchField');
+                $session->set('searchField', "");
+            }
             try{
                 $callApi = file_get_contents('http://api.openweathermap.org/data/2.5/weather?q=' . $city . '&appid=4bc926ca38cf408b902392a4a9164238');
                 $weather = $serializer->decode($callApi, "json");
                 $temperature = ($weather['main']['temp'] - 273.1);
                 $activities = $em->getRepository(Activity::class)->findAll();
-
-                dump($weather);
                 $isWeatherClear = false;
-
                 switch ($weather['weather'][0]['main']) {
                     case 'clear sky':
                         $isWeatherClear = true;
@@ -68,7 +70,6 @@ class ActivityController extends AbstractController
                         $isWeatherClear = false;
                         break;
                 }
-
                 $activitiesToPurpose = [];
                 foreach ($activities as $activity) {
                     if(!$activity->getIsOutdoor()) {
@@ -77,13 +78,13 @@ class ActivityController extends AbstractController
                         $activitiesToPurpose[] = $activity;
                     }
                 }
-                dump($activitiesToPurpose);
             }
             catch(\Exception $e){
                 $this->addFlash(
                     'error',
                     "Cette ville n'est pas référencée ! "
                 );
+                dump("pas de ville");
             }
 
 
