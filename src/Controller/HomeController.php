@@ -27,9 +27,16 @@ class HomeController extends AbstractController
         $em = $this->getDoctrine()->getManager();
         $defaultData = ['message' => ''];
         $form = $this->createFormBuilder($defaultData)
-            ->add('search', SearchType::class)
+            ->add('search', SearchType::class, [
+                'attr' => [
+                    'placeholder' => 'Votre ville',
+                ]
+            ])
             ->add('submit', SubmitType::class, [
-                'label' => 'Chercher'
+                'label' => 'Chercher',
+                'attr' => [
+                    'placeholder' => 'Votre ville',
+                ]
             ])
             ->getForm();
         $form->handleRequest($request);
