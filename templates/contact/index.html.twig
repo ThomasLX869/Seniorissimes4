@@ -7,13 +7,15 @@
 {% endblock %}
 
 {% block body %}
+	<div class="w-50 m-auto">
+		{% for message in app.flashes('success') %}
+			<div class="alert alert-success">
+				{{ message }}
+			</div>
+		{% endfor %}
+	</div>
 	<div class="container position-relative ctnContact">
 		<div class="row justify-content-center">
-			{% for message in app.flashes('success') %}
-				<div class="alert alert-success">
-					{{ message }}
-				</div>
-			{% endfor %}
 			<div class="imgMail ">
 				<img src="{{ asset('img/kingdom-751.png') }}"/>
 			</div>
