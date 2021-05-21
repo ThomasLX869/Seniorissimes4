@@ -5,21 +5,24 @@ namespace App\Controller;
 
 
 use App\Entity\Activity;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Form\Extension\Core\Type\SearchType;
-use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use App\Repository\ActivityRepository;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Serializer\SerializerInterface;
+use Symfony\Component\Form\Extension\Core\Type\SearchType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ActivityController extends AbstractController
+class HomeController extends AbstractController
 {
     /**
-     * @Route("/activity", name="activity")
+     * @Route("/", name="home")
      */
-    public function index(Request $request, SerializerInterface $serializer): Response
+    public function index(Request $request, SerializerInterface $serializer,ActivityRepository $repo): Response
     {
+        $activity = $repo->findAll();
+        dump($activity);
         $em = $this->getDoctrine()->getManager();
         $defaultData = ['message' => ''];
         $form = $this->createFormBuilder($defaultData)
@@ -85,17 +88,11 @@ class ActivityController extends AbstractController
                     "Cette ville n'est pas référencée ! "
                 );
             }
-
-
-
-            return $this->render('activity/index.html.twig', [
-                'form' => $form->createView()
-            ]);
+            return $this->redirectToRoute('activity');
         }
-
-
-        return $this->render('activity/index.html.twig', [
-            'form' => $form->createView()
+        return $this->render('home/index.html.twig', [
+            'form' => $form->createView(),
+            'activity' => $repo->findAll()
         ]);
 
     }
