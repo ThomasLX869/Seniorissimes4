@@ -1,3 +1,12 @@
+h1 {
+  font-weight: bold;
+  color: #324A58;
+  font-size: 82px;
+}
+p {
+  color: #324A58;
+  font-weight:300;
+}
 .btn {
   color: #f28581 !important;
   border-color: #f28581 !important;
@@ -20,4 +29,10 @@
 
 .form-group {
   margin-right: 20px;
+}
+input {
+  border: none !important;
+}
+body {
+  margin-top: 120px !important;
 }
