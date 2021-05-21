@@ -24,9 +24,13 @@ class ActivityController extends AbstractController
         $em = $this->getDoctrine()->getManager();
         $defaultData = ['message' => ''];
         $form = $this->createFormBuilder($defaultData)
-            ->add('search', SearchType::class)
+            ->add('search', SearchType::class, [
+                'attr' => [
+                    'placeholder' => 'Votre ville',
+                ]
+            ])
             ->add('submit', SubmitType::class, [
-                'label' => 'Chercher'
+                'label' => 'Chercher',
             ])
             ->getForm();
 
@@ -92,7 +96,8 @@ class ActivityController extends AbstractController
 
 
             return $this->render('activity/index.html.twig', [
-                'form' => $form->createView()
+                'form' => $form->createView(),
+                'activities' => $activitiesToPurpose
             ]);
         }
 
