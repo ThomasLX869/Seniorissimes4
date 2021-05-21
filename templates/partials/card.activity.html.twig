@@ -1,0 +1,12 @@
+{% block stylesheets %}
+	<link href="{{ asset('css/card.css') }}" type="text/css" rel="stylesheet"/>
+{% endblock %}
+
+<div class="col-2 g-4">
+	<div class="card ">
+		<div class="card-body text-primary text-center">
+			<img src=" img/{{ asset(activity.image) }} "/>
+			<h5 class="card-title">{{activity.label}}</h5>
+		</div>
+	</div>
+</div>

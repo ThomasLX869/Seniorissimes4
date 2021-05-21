@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92.286" height="83" viewBox="0 0 92.286 83">
+  <defs>
+    <filter id="seedling-solid" x="0" y="0" width="92.286" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#seedling-solid)">
+    <path id="seedling-solid-2" data-name="seedling-solid" d="M9.286,41.286H0a32.5,32.5,0,0,0,32.5,32.5V94.679A2.328,2.328,0,0,0,34.821,97h4.643a2.328,2.328,0,0,0,2.321-2.321V73.786A32.5,32.5,0,0,0,9.286,41.286ZM65,32A32.473,32.473,0,0,0,36.606,48.714a37.2,37.2,0,0,1,8.56,15.612A32.51,32.51,0,0,0,74.286,32Z" transform="translate(9 -26)" fill="#7daee8"/>
+  </g>
+</svg>

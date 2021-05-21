@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.001" height="83" viewBox="0 0 83.001 83">
+  <defs>
+    <filter id="Icon_awesome-paint-brush" x="0" y="0" width="83.001" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-paint-brush)">
+    <path id="Icon_awesome-paint-brush-2" data-name="Icon awesome-paint-brush" d="M21.2,39.272c-5.093.328-9.716,2.267-12.339,9.179a1.938,1.938,0,0,1-1.852,1.267C5.6,49.717,1.242,46.2,0,45.357,0,55.811,4.816,65,16.251,65c9.631,0,16.25-5.557,16.25-15.258a11,11,0,0,0-.123-1.159L21.2,39.272ZM58.131,0a7.753,7.753,0,0,0-5.1,2.088C27.076,25.27,24.376,25.815,24.376,32.638a11.753,11.753,0,0,0,1.108,4.913l8.1,6.751a11.682,11.682,0,0,0,2.842.385c7.885,0,12.455-5.773,26.807-32.558A13.063,13.063,0,0,0,65,6.291C65,2.62,61.7,0,58.131,0Z" transform="translate(9 6)" fill="#7daee8"/>
+  </g>
+</svg>
