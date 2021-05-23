@@ -34,9 +34,6 @@ class HomeController extends AbstractController
             ])
             ->add('submit', SubmitType::class, [
                 'label' => 'Chercher',
-                'attr' => [
-                    'placeholder' => 'Votre ville',
-                ]
             ])
             ->getForm();
         $form->handleRequest($request);

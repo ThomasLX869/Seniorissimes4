@@ -53,13 +53,7 @@ class ActivityController extends AbstractController
                 $activities = $em->getRepository(Activity::class)->findAll();
                 $isWeatherClear = false;
                 switch ($weather['weather'][0]['main']) {
-                    case 'clear sky':
-                        $isWeatherClear = true;
-                        break;
-                    case 'few clouds':
-                        $isWeatherClear = true;
-                        break;
-                    case 'scattered clouds':
+                    case 'Clear':
                         $isWeatherClear = true;
                         break;
                     case 'Clouds':
@@ -89,7 +83,6 @@ class ActivityController extends AbstractController
             catch(\Exception $e){
                 $isWrong = true;
             }
-
 
             return $this->render('activity/index.html.twig', [
                 'form' => $form->createView(),
